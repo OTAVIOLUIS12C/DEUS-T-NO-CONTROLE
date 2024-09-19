@@ -5,6 +5,15 @@
         font-family: "Titillium Web", sans-serif;
 } 
 
+root{
+    --gray-800: #1E291B;
+    --gray-600: #475569;
+    --gray-400: #94a3b8;
+    --gray-200: #e2e8f0;
+    --purple: #7c3aed;
+    --light-purple: #9F67FF;
+    --white: #FFF;
+}
 
 header {
     background-image: url(./img\ \(1\).svg);
@@ -13,4 +22,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3.7rem;
+}
+
+
+main {
+    padding-inline: 1.5rem;
+} 
+
+.descricao h1{
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
 }
